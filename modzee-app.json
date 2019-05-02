@@ -8,12 +8,6 @@
         }
     }
 },
-"header": {
-    "title": {
-        "type": "image",
-        "url": "https://modzee.com/files/modzee-logo-color.png"
-    }
-},
     "body": {
 		"background": {
 			"type": "html",
