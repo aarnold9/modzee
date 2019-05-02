@@ -3,20 +3,22 @@ $jason {
         "title": "modzee"
     }
 },
-"header": {
+{"header": {
     "title": {
         "type": "image",
         "url": "https://modzee.com/files/modzee-logo-color.png"
     }
+}
 },
-"background": {
+{"background": {
     "type": "html",
     "url": "https://admin.modzee.com/app/",
     "action": {
         "trigger": "navigate"
     }
+}
 },
-"footer": {
+{"footer": {
     "tabs": {
         "items": [{
             "image": "https://modzee.com/files/favicon.png",
@@ -29,4 +31,5 @@ $jason {
             "url":  "https://modzee.com/" 
         }]
     }
+}
 }
