@@ -1,6 +1,6 @@
 $jason {
-    head: {
-        title: "modzee"
+    "head": {
+        "title": "modzee"
     }
 },
 "header": {
