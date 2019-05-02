@@ -1,19 +1,33 @@
 {
 	"$jason": {
-    "head": {
-        "title": "modzee",
-		"actions": {
-        "$foreground": {
-          "type": "$reload"
-        }
-    }
-},
+        "head": {
+            "title": "modzee™",
+            "description": "Your Digital Workplace",
+            "actions": {
+                "handleLink": [
+                    {
+                        "{{#if $jason.url.indexOf('google') == -1 }}": {
+                            "type": "$href",
+                            "options": {
+                                "url": "{{$jason.url}}",
+                                "view": "web"
+                            }
+                        }
+                    },
+                    {
+                       "{{#else}}": {
+                           "type": "$default"
+                       }
+                    }
+                ]
+             }
+        },
     "body": {
 		"background": {
 			"type": "html",
     		"url": "https://admin.modzee.com/app/",
 			"action": {
-        		"trigger": "click"
+        		"trigger": "navigate"
 				}
 		}
       },		
