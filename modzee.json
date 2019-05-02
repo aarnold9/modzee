@@ -1,0 +1,22 @@
+{
+	"$jason": {
+    "head": {
+        "title": "modzee",
+		"actions": {
+        "$foreground": {
+          "type": "$reload"
+        }
+    }
+},
+    "body": {
+		"background": {
+			"type": "html",
+    		"url": "https://admin.modzee.com/app/",
+			"action": {
+        		"trigger": "click"
+				}
+		}
+      },		
+
+}
+}
