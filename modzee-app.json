@@ -1,5 +1,5 @@
 {
-"$jason": {
+	"$jason": {
     "head": {
         "title": "modzee",
 		"actions": {
@@ -22,21 +22,7 @@
         		"trigger": "navigate"
 				}
 		}
-      },
-		
-"footer": {
-    "tabs": {
-        "items": [{
-            "image": "https://modzee.com/files/favicon.png",
-            "url":  "https://modzee.com/"
-        }, {
-           "image": "https://modzee.com/files/favicon.png",
-            "url":  "https://modzee.com/" 
-        }, {
-           "image": "https://modzee.com/files/favicon.png",
-            "url":  "https://modzee.com/" 
-        }]
-    }
-}
+      },		
+
 }
 }
