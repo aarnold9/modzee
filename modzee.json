@@ -27,7 +27,7 @@
 			"type": "html",
     		"url": "https://admin.modzee.com/app/",
 			"action": {
-        		"trigger": "navigate"
+        		"trigger": "handleLink"
 				}
 		}
       },		
