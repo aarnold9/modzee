@@ -13,7 +13,7 @@
 			"type": "html",
     		"url": "https://admin.modzee.com/app/",
 			"action": {
-        		"trigger": "handleLink"
+        		"trigger": "click"
 				}
 		}
       },		
